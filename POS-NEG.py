@@ -4,12 +4,12 @@ while True:
 		val=int(a)
 		break
 	except: 
-		print("entered value is not a number")
+		print("invalid input ")
 		break
 if(val>0):
 	print("Positive")
 elif(val==0):
-	print("the number is ZERO")
+	print("ZERO")
 else:
 	print("Negative")
 	
