@@ -7,3 +7,6 @@ if(len(x)==1):
 	else:
 		print("No")
 		
+else:
+	print("No")
+		
