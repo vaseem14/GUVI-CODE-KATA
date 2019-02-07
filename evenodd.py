@@ -4,9 +4,9 @@ while True:
 		val=int(a)
 		break
 	except: 
-		print("Invalid")
+		print("invalid input ")
 		break
-if(val%2):
+if(val%2==0):
 	print("Even")
 
 else:
