@@ -7,9 +7,9 @@ while True:
 		print("entered value is not a number")
 		break
 if(val>0):
-	print("positive")
+	print("Positive")
 elif(val==0):
 	print("the number is ZERO")
 else:
-	print("negative")
+	print("Negative")
 	
