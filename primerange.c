@@ -22,7 +22,7 @@ int main()
         }
 
         if (flag == 0)
-            printf("%d ", low);
+            printf("%d", low);
 
         ++low;
     }
