@@ -3,11 +3,11 @@
 
 int main()
 {
-    int low, high, i, temp1, temp2, remainder, n = 0, result = 0;
+    int low1, high1, i, temp1, temp2, remainder, n = 0, result = 0;
 
     scanf("%d%d", &low, &high);
 
-    for(i = low + 1; i < high; ++i)
+    for(i = low1 + 1; i < high1; ++i)
     {
         temp2 = i;
         temp1 = i;
