@@ -4,6 +4,7 @@ int main()
     int low, high, i, flag;
    
     scanf("%d %d", &low, &high);
+    low=low+1;
 
    
 
