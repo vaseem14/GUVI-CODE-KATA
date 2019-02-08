@@ -1,14 +1,6 @@
-while True:
-	try:
-		c=int(input())
-		break
-	except:
-		print("Invalid input")
-		break
-b=1
-if c==0:
-	print('1')
-else:
-	for x in range(2,c):
-		b=b*x
-	print(b*c)
+z=int(input())
+fact=1
+while(z>0):
+	fact=fact*z
+	z=z-1
+print(fact)
