@@ -5,7 +5,7 @@ int main()
 {
     int low1, high1, i, temp1, temp2, remainder, n = 0, result = 0;
 
-    scanf("%d%d", &low, &high);
+    scanf("%d%d", &low1, &high1);
 
     for(i = low1 + 1; i < high1; ++i)
     {
